@@ -21,5 +21,6 @@ export const sendRefreshToken = (res: Response, token: string) => {
     path: '/auth/refresh_token',
     httpOnly: true,
     expires: new Date(Date.now() + 604800000),
+    secure: true,
   });
 }

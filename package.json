@@ -25,6 +25,7 @@
       "typeorm": "0.2.30"
    },
    "scripts": {
+      "build": "tsc",
       "start": "ts-node src/index.ts",
       "dev": "nodemon --exec ts-node src/index.ts"
    }

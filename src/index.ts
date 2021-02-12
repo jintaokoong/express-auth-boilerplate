@@ -24,8 +24,8 @@ import authController from './controllers/auth.controller';
     app.use('/auth', authController);
 
     await createConnection();
-    app.listen(3000, () => {
-      console.log('listening to port 3000');
+    app.listen(4000, () => {
+      console.log('listening to port 4000');
     })
    
     process.on('SIGINT', function() {
